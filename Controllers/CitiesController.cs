@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using RaquunProject.DataAccess.DTOs;
 using RaquunProject.DataAccess.Entities;
 using RaquunProject.DataAccess.Result;
-using RaquunProject.DTOs;
 using RaquunProject.Services.Abstract;
 
 namespace RaquunProject.Controllers

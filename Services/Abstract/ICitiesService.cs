@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RaquunProject.DataAccess.DTOs;
 using RaquunProject.DataAccess.Entities;
 using RaquunProject.DataAccess.Result;
-using RaquunProject.DTOs;
 
 namespace RaquunProject.Services.Abstract
 {

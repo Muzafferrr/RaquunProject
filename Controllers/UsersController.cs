@@ -13,9 +13,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using RaquunProject.DataAccess;
+using RaquunProject.DataAccess.DTOs;
 using RaquunProject.DataAccess.Entities;
 using RaquunProject.DataAccess.Result;
-using RaquunProject.DTOs;
 using RaquunProject.Services.Abstract;
 using RaquunProject.Services.Concrete;
 
@@ -47,7 +47,6 @@ namespace RaquunProject.Controllers
             {
                 return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
             }
-
         }
         
         [HttpGet("{username}/{password}")]
@@ -74,7 +73,6 @@ namespace RaquunProject.Controllers
             {
                 return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
             }
-
         }
         
         private async Task<UserAuthenticationDTO> Authentication(User user)

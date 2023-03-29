@@ -12,7 +12,7 @@ using RaquunProject.DataAccess;
 namespace RaquunProject.DataAccess.Migrations
 {
     [DbContext(typeof(RaquunProjectDbContext))]
-    [Migration("20230329153642_CreateTables")]
+    [Migration("20230329180829_CreateTables")]
     partial class CreateTables
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

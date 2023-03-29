@@ -1,4 +1,4 @@
-﻿namespace RaquunProject.DTOs
+﻿namespace RaquunProject.DataAccess.DTOs
 {
     public class UserAuthenticationDTO
     {
